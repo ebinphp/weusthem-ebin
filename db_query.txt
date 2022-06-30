@@ -1,0 +1,7 @@
+
+CREATE DATABASE `weusthem_db`; 
+
+CREATE TABLE `weusthem_db`.`contact_tbl` (`id` INT(8) NOT NULL AUTO_INCREMENT , `con_fname` VARCHAR(100) NOT NULL , `con_lname` VARCHAR(100) NOT NULL , `con_email` VARCHAR(100) NOT NULL , `con_phone` VARCHAR(20) NOT NULL , `con_image` TEXT NOT NULL , `con_created_date` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP , PRIMARY KEY (`id`)) ENGINE = InnoDB;
+
+
+SELECT * FROM `contact_tbl`
